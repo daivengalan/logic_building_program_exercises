@@ -1,10 +1,10 @@
 #Ask the user for input
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
+first_input_number = float(input("Enter first number: "))
+second_input_number = float(input("Enter second number: "))
 #Compare the numbers
-if num1 < num2:
-    print(f"The smaller number is: {num1}")
-elif num2 < num1:
-    print(f"The smaller number is: {num2}")
+if first_input_number < second_input_number:
+    print(f"The smaller number is: {first_input_number}")
+elif second_input_number < first_input_number:
+    print(f"The smaller number is: {second_input_number}")
 else:
     print("Both numbers are equal.")

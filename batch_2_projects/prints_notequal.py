@@ -1,6 +1,6 @@
 # Input
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
+first_input_number = float(input("Enter first number: "))
+second_input_number = float(input("Enter second number: "))
 # Check for inequality
-if num1 != num2:
+if first_input_number != second_input_number:
     print("Not Equal")
